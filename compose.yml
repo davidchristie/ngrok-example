@@ -1,0 +1,16 @@
+services:
+  foo:
+    image: "nginx:alpine"
+    volumes:
+      - "./services/foo/public:/usr/share/nginx/html"
+      - "./services/foo/nginx.conf:/etc/nginx/conf.d/default.conf"
+    ports:
+      - "8080:80"
+
+  bar:
+    image: "nginx:alpine"
+    volumes:
+      - "./services/bar/public:/usr/share/nginx/html"
+      - "./services/bar/nginx.conf:/etc/nginx/conf.d/default.conf"
+    ports:
+      - "8081:80"
