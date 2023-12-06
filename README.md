@@ -13,4 +13,4 @@ NGROK_AUTHTOKEN="*****"
 ```
 docker compose up -d
 ```
-4. Open [http://localhost:4040] to view the ngrok UI. It lists the public URLs of the deployed services (Foo and Bar).
+4. Open <http://localhost:4040> to view the ngrok UI. It lists the public URLs of the deployed services (Foo and Bar).
