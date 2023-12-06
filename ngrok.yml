@@ -1,0 +1,10 @@
+version: "2"
+
+tunnels:
+  foo:
+    proto: "http"
+    addr: "host.docker.internal:8080"
+
+  bar:
+    proto: "http"
+    addr: "host.docker.internal:8081"
